@@ -59,7 +59,5 @@ class Program
                                       stopWatcher_CustomDeserialize.Elapsed.ToString(),
                                       stopWatcher_DeserializeJSONbyDefault.Elapsed.ToString(),
                                       "NewtonSoft.Json");
-        //string result = csvSerializer.SerializeToCsv<F>(objects);
-        //Console.WriteLine(result);
     }
 }

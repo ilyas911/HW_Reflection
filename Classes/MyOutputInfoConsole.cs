@@ -9,7 +9,11 @@ namespace HW_Reflection.Classes
 {
     public class MyOutputInfoConsole : IOutputInfo
     {
-        public void OutputResearchInfo(object timeToSerialize, object timeToSerialize_fromLibrary, object timeToDeserialize, object timeToDeserialize_fromLibrary, string MethodFromLibrary)
+        public void OutputResearchInfo(object timeToSerialize, 
+                                       object timeToSerialize_fromLibrary, 
+                                       object timeToDeserialize, 
+                                       object timeToDeserialize_fromLibrary, 
+                                       string MethodFromLibrary)
         {
             Console.WriteLine("Время на сериализацию = " + timeToSerialize.ToString());
             Console.WriteLine("Время на десериализацию = " + timeToDeserialize.ToString());

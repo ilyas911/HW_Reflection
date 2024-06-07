@@ -8,7 +8,7 @@ namespace HW_Reflection.Interfaces
 {
     public interface IInputData
     {
-        public void InitializeInput_IterationsCount();
-        public int InputIterationsCount_WithCheck();
+        void InitializeInput_IterationsCount();
+        int InputIterationsCount_WithCheck();
     }
 }

@@ -8,6 +8,10 @@ namespace HW_Reflection.Interfaces
 {
     public interface IOutputInfo
     {
-        public void OutputResearchInfo(object timeToSerialize, object timeToSerialize_fromLibrary, object timeToDeserialize, object timeToDeserialize_fromLibrary, string MethodFromLibrary);
+        void OutputResearchInfo(object timeToSerialize, 
+                                object timeToSerialize_fromLibrary, 
+                                object timeToDeserialize, 
+                                object timeToDeserialize_fromLibrary, 
+                                string MethodFromLibrary);
     }
 }
