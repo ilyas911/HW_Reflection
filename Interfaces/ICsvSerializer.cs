@@ -4,11 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace HW_Reflection
+namespace HW_Reflection.Interfaces
 {
     public interface ICsvSerializer
     {
-        void SerializeToCsv<T>(List<T> objects, string filePath);
-        List<T> DeserializeFromCsv<T>(string filePath);
+        string SerializeToCsv<T>(List<T> objects);
+        List<T> DeserializeFromCsv<T>(string objects);
     }
 }
