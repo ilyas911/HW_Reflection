@@ -1,2 +1,10 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using HW_Reflection;
+using System;
+class Program
+{
+    static void Main()
+    {
+        ICsvSerializer csvSerializer = new MyCsvSerializer();
+
+    }
+}
